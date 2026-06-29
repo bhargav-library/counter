@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import React from "react";
-import ReactDOM from "react-dom/client";
+
 import "./style.css";
 function Counter() {
   const [count, setCount] = useState(0);
