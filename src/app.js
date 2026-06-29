@@ -1,8 +1,10 @@
-import App from "./counter";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Counter from "./counter";
 const AppLayout = ()=>{
     return(
         <div className ="app">
-         <App/>    
+         <Counter/>    
         </div>
     )
 }
