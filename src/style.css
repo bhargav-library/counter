@@ -1,0 +1,41 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+  min-width: 120px;
+}
+
+button:hover {
+  background-color: #4f46e5;
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+}
+
+button:active {
+  transform: scale(0.96);
+  background-color: #4338ca;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+}
